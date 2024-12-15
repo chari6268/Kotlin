@@ -14,6 +14,9 @@ class LinklistMain {
                 head = lm.insertAtEnd(head, readln().toInt())
             }
             lm.display(head)
+            print("Enter the element to be inserted at the beginning: ")
+            head = lm.insertAtBegin(head, readln().toInt())
+            lm.display(head)
         } catch (e: Exception) {
             println(e.message)
         }

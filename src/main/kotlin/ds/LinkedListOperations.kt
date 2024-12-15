@@ -22,4 +22,9 @@ class LinkedListOperations {
         }
         println()
     }
+    fun insertAtBegin(head: Node?, data: Int): Node {
+        val newNode = Node(data)
+        newNode.next = head
+        return newNode
+    }
 }
