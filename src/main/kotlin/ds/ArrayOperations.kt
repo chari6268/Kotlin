@@ -1,4 +1,4 @@
-package com.chari
+package com.chari.DS
 
 class ArrayOperations {
     fun deleteElement(arr: IntArray, x: Int): IntArray {

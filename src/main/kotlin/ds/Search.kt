@@ -1,4 +1,4 @@
-package com.chari
+package com.chari.DS
 
 class search {
     fun BinariSearch(arr: IntArray, x: Int): Int {
